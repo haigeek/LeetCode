@@ -11,7 +11,7 @@ public class TwoSum {
     //两次遍历，时间复杂度O{N次方}
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
+            for (int j = i+1; j < nums.length; j++) {
                 if (nums[j] == target - nums[i]) {
                     return new int[]{i, j};
                 }
