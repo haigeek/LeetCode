@@ -1,5 +1,3 @@
-package twosum;
-
 import java.util.HashMap;
 import java.util.Map;
 
