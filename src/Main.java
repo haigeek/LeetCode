@@ -21,7 +21,7 @@ public class Main {
 //        int result = t.maxProfit(array);
 //        System.out.println(result);
 
-        bestTimeToBuyAndSellStocki t = new bestTimeToBuyAndSellStocki();
+        BestTimeToBuyAndSellStockI t = new BestTimeToBuyAndSellStockI();
         int[] array = {7,6,4,3,1};
         int result = t.maxProfit(array);
         System.out.println(result);

@@ -3,7 +3,7 @@
  * @date 2021-03-01 10:58 下午
  * @Description 买卖股票的最佳时机 II
  */
-public class bestTimeToBuyAndSellStockii {
+public class BestTimeToBuyAndSellStockII {
     //贪心法
     public int maxProfit(int[] prices) {
         int profit=0;
